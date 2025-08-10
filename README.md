@@ -19,7 +19,3 @@ Two players can take turns playing, and the game detects a win or a tie automati
 - **HTML** – Structure of the game
 - **CSS** – Styling and layout
 - **JavaScript** – Game logic, event handling, and DOM manipulation
-
----
-
-## 📂 File Structure
