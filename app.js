@@ -24,6 +24,7 @@ const resetGame = () => {
     enableBoxes();
     msgContainer.classList.add("hide");
     clicks = 0;
+    isWinner = false;
 };
 
 boxes.forEach((box) => {
@@ -41,8 +42,9 @@ boxes.forEach((box) => {
         }
         box.disabled = true;
         checkWinner();
-        if(clicks >= 9 && isWinner == false){
+        if(clicks >= 9 && isWinner === false){
             tieMatch();
+            clicks = 0;
         }
     });
 });
